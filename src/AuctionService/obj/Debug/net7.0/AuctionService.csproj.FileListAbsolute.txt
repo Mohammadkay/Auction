@@ -115,3 +115,13 @@ D:\MicroServices\Auction\auction\src\AuctionService\obj\Debug\net7.0\refint\Auct
 D:\MicroServices\Auction\auction\src\AuctionService\obj\Debug\net7.0\AuctionService.pdb
 D:\MicroServices\Auction\auction\src\AuctionService\obj\Debug\net7.0\AuctionService.genruntimeconfig.cache
 D:\MicroServices\Auction\auction\src\AuctionService\obj\Debug\net7.0\ref\AuctionService.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\MassTransit.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\Contract.dll
+D:\MicroServices\Auction\Auction\src\AuctionService\bin\Debug\net7.0\Contract.pdb

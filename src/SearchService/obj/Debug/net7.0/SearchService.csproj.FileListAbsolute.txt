@@ -88,3 +88,17 @@ D:\MicroServicess\project\src\SearchService\bin\Debug\net7.0\Data\auction.json
 D:\MicroServicess\project\src\SearchService\bin\Debug\net7.0\Microsoft.Extensions.Http.Polly.dll
 D:\MicroServicess\project\src\SearchService\bin\Debug\net7.0\Polly.dll
 D:\MicroServicess\project\src\SearchService\bin\Debug\net7.0\Polly.Extensions.Http.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Data\auction.json
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\MassTransit.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Microsoft.Extensions.Http.Polly.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Polly.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Polly.Extensions.Http.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Contract.dll
+D:\MicroServices\Auction\Auction\src\SearchService\bin\Debug\net7.0\Contract.pdb

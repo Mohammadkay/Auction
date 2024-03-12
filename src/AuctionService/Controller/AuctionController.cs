@@ -3,6 +3,8 @@ using AuctionService.Dtos;
 using AuctionService.Entites;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Contract;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,11 +15,14 @@ public class AuctionController:ControllerBase
 {
     private readonly AuctionDbContext _context;
     private IMapper _mapper;
-public AuctionController(AuctionDbContext context,IMapper mapper)
+    private readonly IPublishEndpoint _publishEndpoint;
+
+    public AuctionController(AuctionDbContext context,IMapper mapper,IPublishEndpoint publishEndpoint)
 {
 _context=context;
 _mapper=mapper;
-}
+_publishEndpoint = publishEndpoint;
+    }
 
 [HttpGet]
 public async Task<ActionResult<List<AuctionDto>>> GetAllAuction(string date)
@@ -49,10 +54,12 @@ auction.Seller="Test";
 
 _context.Auctions.Add(auction);
 var result =await _context.SaveChangesAsync()>0;
+var newauction=_mapper.Map<AuctionDto>(auction);
+await _publishEndpoint.Publish(_mapper.Map<AuctionCreated>(newauction));
 if(!result){
     return BadRequest(result+"Couldunt Save changes to DB");
 }
-return CreatedAtAction(nameof(GetAuctionById),new {auction.Id},_mapper.Map<AuctionDto>(auction))
+return CreatedAtAction(nameof(GetAuctionById),new {auction.Id},newauction)
  ;
 }
 

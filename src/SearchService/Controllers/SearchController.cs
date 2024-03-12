@@ -35,11 +35,11 @@ public async Task<ActionResult<List<Item>>> SearchItem([FromQuery]SearchParmse s
      }
      query.PageNumber(search.PageNumber);
      query.PageSize(search.PageSize);
-     var result=await query.ExecuteAsync();
+     var results=await query.ExecuteAsync();
      return Ok( new {
-        Result=result.Results,
-        pageCount=result.PageCount,
-        totalCount=result.TotalCount
+        Result=results.Results,
+        pageCount=results.PageCount,
+        totalCount=results.TotalCount
      });
 }
 }
