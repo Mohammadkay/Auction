@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MicroServices\\Auction\\Auction\\src\\AuctionService\\AuctionService.csproj": {}
+    "D:\\MicroServicess\\project\\Auction\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "D:\\MicroServices\\Auction\\Auction\\src\\AuctionService\\AuctionService.csproj": {
+    "D:\\MicroServicess\\project\\Auction\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MicroServices\\Auction\\Auction\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "D:\\MicroServicess\\project\\Auction\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "D:\\MicroServices\\Auction\\Auction\\src\\AuctionService\\AuctionService.csproj",
-        "packagesPath": "C:\\Users\\m.alkayyali\\.nuget\\packages\\",
-        "outputPath": "D:\\MicroServices\\Auction\\Auction\\src\\AuctionService\\obj\\",
+        "projectPath": "D:\\MicroServicess\\project\\Auction\\src\\AuctionService\\AuctionService.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\MicroServicess\\project\\Auction\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\m.alkayyali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -33,8 +35,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\MicroServices\\Auction\\Auction\\src\\Contract\\Contract.csproj": {
-                "projectPath": "D:\\MicroServices\\Auction\\Auction\\src\\Contract\\Contract.csproj"
+              "D:\\MicroServicess\\project\\Auction\\src\\Contract\\Contract.csproj": {
+                "projectPath": "D:\\MicroServicess\\project\\Auction\\src\\Contract\\Contract.csproj"
               }
             }
           }
@@ -105,26 +107,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MicroServices\\Auction\\Auction\\src\\Contract\\Contract.csproj": {
+    "D:\\MicroServicess\\project\\Auction\\src\\Contract\\Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MicroServices\\Auction\\Auction\\src\\Contract\\Contract.csproj",
+        "projectUniqueName": "D:\\MicroServicess\\project\\Auction\\src\\Contract\\Contract.csproj",
         "projectName": "Contract",
-        "projectPath": "D:\\MicroServices\\Auction\\Auction\\src\\Contract\\Contract.csproj",
-        "packagesPath": "C:\\Users\\m.alkayyali\\.nuget\\packages\\",
-        "outputPath": "D:\\MicroServices\\Auction\\Auction\\src\\Contract\\obj\\",
+        "projectPath": "D:\\MicroServicess\\project\\Auction\\src\\Contract\\Contract.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\MicroServicess\\project\\Auction\\src\\Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\m.alkayyali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -165,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

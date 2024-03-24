@@ -53,9 +53,10 @@ var auction=_mapper.Map<Auction>(entity);
 auction.Seller="Test";
 
 _context.Auctions.Add(auction);
-var result =await _context.SaveChangesAsync()>0;
 var newauction=_mapper.Map<AuctionDto>(auction);
 await _publishEndpoint.Publish(_mapper.Map<AuctionCreated>(newauction));
+var result =await _context.SaveChangesAsync()>0;
+
 if(!result){
     return BadRequest(result+"Couldunt Save changes to DB");
 }
@@ -77,6 +78,7 @@ public async Task<ActionResult> update (Guid Id,UpdateAuctionDto entity){
     auction.Item.Mileage=entity.Mileage ?? auction.Item.Mileage;
     auction.Item.Year=entity.Year ?? auction.Item.Year;
     _context.Auctions.Update(auction);
+    await _publishEndpoint.Publish(_mapper.Map<AuctionUpdated>(auction));
 var result =await _context.SaveChangesAsync()>0;
 if(!result){
     return BadRequest("problem saving changes");
@@ -92,6 +94,7 @@ public async Task<ActionResult> Delete(Guid Id)
     if(auction==null){
         return NotFound();
     }
+    await _publishEndpoint.Publish(new AuctionDeleted{Id=auction.Id.ToString()});
     _context.Auctions.Remove(auction);
     var result =await _context.SaveChangesAsync()>0;
 if(!result){

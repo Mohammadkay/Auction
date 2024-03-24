@@ -9,3 +9,15 @@ D:\MicroServices\Auction\Auction\src\Contract\obj\Debug\net7.0\Contract.dll
 D:\MicroServices\Auction\Auction\src\Contract\obj\Debug\net7.0\refint\Contract.dll
 D:\MicroServices\Auction\Auction\src\Contract\obj\Debug\net7.0\Contract.pdb
 D:\MicroServices\Auction\Auction\src\Contract\obj\Debug\net7.0\ref\Contract.dll
+D:\MicroServicess\project\Auction\src\Contract\bin\Debug\net7.0\Contract.deps.json
+D:\MicroServicess\project\Auction\src\Contract\bin\Debug\net7.0\Contract.dll
+D:\MicroServicess\project\Auction\src\Contract\bin\Debug\net7.0\Contract.pdb
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\Contract.csproj.AssemblyReference.cache
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\Contract.AssemblyInfoInputs.cache
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\Contract.AssemblyInfo.cs
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\Contract.csproj.CoreCompileInputs.cache
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\Contract.dll
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\refint\Contract.dll
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\Contract.pdb
+D:\MicroServicess\project\Auction\src\Contract\obj\Debug\net7.0\ref\Contract.dll

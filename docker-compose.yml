@@ -2,7 +2,7 @@ services:
   postgres:
     image: postgres
     environment:
-      -   POSTGRES_PASSWORD=postgrespw
+      -   POSTGRES_PASSWORD=kayyali1
     ports:
       - 5432:5432
     volumes:
