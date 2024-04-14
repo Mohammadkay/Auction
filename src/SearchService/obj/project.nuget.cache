@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9PxuoU4hXn/ZWp1S6XT2vrfGjkA8xiR67xjox9t02r81TZMU8JRs9a12gQCDFiYxMOF/3yO0uROSgkqPnt5joA==",
+  "dgSpecHash": "n0lWFFmeJo2/DRAhvlN8PmTcmKfWG2HnflirYaEW7v8s9TpsEEirV9How1UcSnqDGO7nW9F1I0flm8qlV1Vusw==",
   "success": true,
   "projectFilePath": "D:\\MicroServicess\\project\\Auction\\src\\SearchService\\SearchService.csproj",
   "expectedPackageFiles": [
@@ -62,7 +62,11 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MicroServicess\\project\\Auction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{027803DA-57B5-45A9-B570-537DEBD2F0D0}|src\\IdentityService\\IdentityService.csproj|d:\\microservicess\\project\\auction\\src\\identityservice\\pages\\account\\register\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027803DA-57B5-45A9-B570-537DEBD2F0D0}|src\\IdentityService\\IdentityService.csproj|solutionrelative:src\\identityservice\\pages\\account\\register\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\MicroServicess\\project\\Auction\\src\\IdentityService\\Pages\\Account\\Register\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "src\\IdentityService\\Pages\\Account\\Register\\Index.cshtml.cs",
+              "ToolTip": "D:\\MicroServicess\\project\\Auction\\src\\IdentityService\\Pages\\Account\\Register\\Index.cshtml.cs",
+              "RelativeToolTip": "src\\IdentityService\\Pages\\Account\\Register\\Index.cshtml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAowCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T21:33:05.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

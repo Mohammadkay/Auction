@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ac5P4UoglYK1NSOhF9Eu35sllwZS2AA98ERNCLnbckvay9NY7+bJInGA28MnyMKSVJczWmI6iVJ+ODnwBFsWQw==",
+  "dgSpecHash": "mN3+/1P3VQh8QCBfg1MSy6xkR3jStPwDleNEKJ8Qkwy+Ui4UMJ4qSVHb1xIlzvcjndCWyMPOnlFWP0traJItmw==",
   "success": true,
   "projectFilePath": "D:\\MicroServicess\\project\\Auction\\src\\Contract\\Contract.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }
